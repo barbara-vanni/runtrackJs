@@ -1,0 +1,16 @@
+#images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#dropzone {
+    width: 90vw;
+    height: 40vh;
+    border: 2px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
