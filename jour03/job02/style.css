@@ -1,16 +1,21 @@
-#images {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
 
 #dropzone {
-    width: 90vw;
-    height: 40vh;
     border: 2px dashed black;
+    margin: 50px;
+    width: 70vw;
+    height: 45vh;
+}
+
+.dragging {
+    z-index: 1000;
+}
+
+
+#message {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px;
+    margin-top: 20px;
 }

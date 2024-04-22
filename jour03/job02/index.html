@@ -1,25 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <title>RuntrackJJquery</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arc-en-ciel</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+
 </head>
 <body>
-    <div id="images">
-        <img src="assets/arc1.png" id="1" class="draggable">
-        <img src="assets/arc2.png" id="2" class="draggable">
-        <img src="assets/arc3.png" id="3" class="draggable">
-        <img src="assets/arc4.png" id="4" class="draggable">
-        <img src="assets/arc5.png" id="5" class="draggable">
-        <img src="assets/arc6.png" id="6" class="draggable">
-    </div>
-    <button id="shuffleButton">Mélanger</button>
+    <section id="arc-en-ciel-container">
+        <div id="arc-en-ciel">
+            <img src="assets/arc1.png" alt="Image 1" class="image" data-index="1">
+            <img src="assets/arc2.png" alt="Image 2" class="image" data-index="2">
+            <img src="assets/arc3.png" alt="Image 3" class="image" data-index="3">
+            <img src="assets/arc4.png" alt="Image 4" class="image" data-index="4">
+            <img src="assets/arc5.png" alt="Image 5" class="image" data-index="5">
+            <img src="assets/arc6.png" alt="Image 6" class="image" data-index="6">
+        </div>
+        <button id="melanger">Mélanger</button>
+    </section>
 
-    <div id="dropzone">Déposez vos images ici</div>
+    <section id="arc-en-ciel-reorganiser">
+        <h2>Remettre les images dans le bon ordre</h2>
+        <div id="dropzone"></div>
+    </section>
     
-
+    <div id="message"></div>
 </body>
 </html>
