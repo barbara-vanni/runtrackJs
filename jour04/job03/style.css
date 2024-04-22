@@ -1,0 +1,17 @@
+#ListPokemon ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#ListPokemon li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#ListPokemon li:last-child {
+    border-bottom: none;
+}
+
+#ListPokemon li strong {
+    color: red;
+}
